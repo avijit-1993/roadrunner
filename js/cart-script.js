@@ -9,13 +9,9 @@ if (data.cart.length == 0) {
 
 function totalItem(){
 
- let totalQnty=0;
+ let totalQnty=data.cart.length;
 
-data.cart.forEach(element => {
-   
-totalQnty += element.onty 
 
-});
 
 document.getElementById("total-qnty").innerText = totalQnty;
 
@@ -141,7 +137,7 @@ document.querySelectorAll(".checkQnt").forEach((item)=>{
             document.querySelector(`#pro-qnt-${dataTarget}`).innerText = `${parseInt(actualQnt + 1)}`;
             document.querySelector(`#sum-pro-qnt-${dataTarget}`).innerText = `${parseInt(actualQnt + 1)}`;
 
-            // document.querySelector(`#total-qnty`).innerText = `${parseInt(actualQnt + 1)}`;
+            
             
 
             data.cart[findItemIndex].onty +=1;
@@ -161,7 +157,7 @@ document.querySelectorAll(".checkQnt").forEach((item)=>{
             document.querySelector(`#pro-qnt-${dataTarget}`).innerText = `${parseInt(actualQnt - 1)}`;
             document.querySelector(`#sum-pro-qnt-${dataTarget}`).innerText = `${parseInt(actualQnt - 1)}`;
 
-            // document.querySelector(`#total-qnty`).innerText = `${parseInt(actualQnt - 1)}`;
+            
 
            
 
