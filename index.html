@@ -1,0 +1,510 @@
+<!doctype html>
+<html>
+
+<head>
+   <meta charset="utf-8" />
+   <title>Road Runner</title>
+   <meta name="description" content="" />
+   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+   <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+   <meta http-equiv="content-language" content="en-us" />
+   <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+   <link rel="shortcut icon" href="images/favicon.jpg" type="image/x-icon">
+   <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+   <link rel="stylesheet" type="text/css" href="css/custom.css">
+   <link rel="stylesheet" type="text/css" href="css/media.css">
+   <link rel="stylesheet" type="text/css" href="css/nav-responsive.css">
+   <link rel="stylesheet" href="css/owl.carousel.min.css">
+   <link rel="stylesheet" href="css/owl.theme.default.min.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet">
+   <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+</head>
+
+<body>
+
+
+   <section id="hero" class="position-relative">
+      <div class="container position-relative">
+         <div class="nav-container">
+            <div class="nav-wrapper container">
+               <div class="nav-logo">
+                  <img src="images/logo.svg" alt="RoadRunner" />
+               </div>
+               <div class="nav-links">
+                  <div class="lan-links-text">
+                     <a href="index.html" class="active">HOME</a>
+                     <a href="collection.html">PRODUCTS</a>
+                     <a href="wishlist.html">WISHLIST</a>
+                  </div>
+                  <div class="lan-links-icon">
+                     
+                     <span>
+                        <img src="images/user-icon.svg" alt="RoadRunner" />
+                     </span>
+                     <span class="position-relative cart-page">
+                        <img src="images/user-cart.svg" alt="RoadRunner" />
+                        <span id="cart-qnt">0</span>
+                     </span>
+
+                     <button class="menu"
+                        onclick="this.classList.toggle('opened');this.setAttribute('aria-expanded', this.classList.contains('opened'))"
+                        aria-label="Main Menu">
+                        <svg width="30" height="30" viewBox="0 0 100 100">
+                           <path class="line line1"
+                              d="M 20,29.000046 H 80.000231 C 80.000231,29.000046 94.498839,28.817352 94.532987,66.711331 94.543142,77.980673 90.966081,81.670246 85.259173,81.668997 79.552261,81.667751 75.000211,74.999942 75.000211,74.999942 L 25.000021,25.000058" />
+                           <path class="line line2" d="M 20,50 H 80" />
+                           <path class="line line3"
+                              d="M 20,70.999954 H 80.000231 C 80.000231,70.999954 94.498839,71.182648 94.532987,33.288669 94.543142,22.019327 90.966081,18.329754 85.259173,18.331003 79.552261,18.332249 75.000211,25.000058 75.000211,25.000058 L 25.000021,74.999942" />
+                        </svg>
+                     </button>
+
+
+
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="hero-wrapper position-relative">
+            <div class="hero-text">
+               <h1><span class="yellow-text">Next-Gen Running</span> <br>Starts Here</h1>
+               <h4>Our latest running shoes deliver lightweight comfort, responsive cushioning, and durability for every
+                  stride. </h4>
+                  <img src="images/hero-shoe.png" class="d-block d-md-none" alt="RoadRunner" />
+               <a href="#" class="shop-btn">SHOP NOW</a>
+            </div>
+            <div class="hero-product position-relative">
+               <img src="images/hero-shoe.png" class="d-none d-md-block" alt="RoadRunner" />
+
+               <img src="images/circle-grph1.png" class="circle-grph1" alt="RoadRunner" />
+               <img src="images/circle-grph2.png" class="circle-grph2" alt="RoadRunner" />
+            </div>
+
+
+         </div>
+
+
+      </div>
+      <img src="images/circle-grph3.png" class="circle-grph3" alt="RoadRunner" />
+   </section>
+
+
+   <section id="new-arrival">
+      <div class="container">
+         <div class="row">
+            <div class="col-lg-4">
+               <div class="new-arr-offer">
+                  <img src="images/off-tag.png" class="off-tag d-table mx-auto mb-1" alt="RoadRunner" />
+                  <h2 class="head-48 text-center fw-700">SUMMER SALE</h2>
+                  <p>Run into summer with unbeatable <br>deals on top running shoes!</p>
+
+                  <a href="#" class="shop-btn-black mx-auto">SHOP NOW</a>
+
+                  <img src="images/sum-sale-product.png" class="sum-sale-product" alt="RoadRunner" />
+               </div>
+            </div>
+            <div class="col-lg-8">
+               <div class="new-arr-box">
+                  <h2 class="sec-head">NEW ARRIVALS</h2>
+                  <h6 class="sec-para">A fresh collection of shoes designed for comfort, performance, and modern flair.
+                  </h6>
+
+                  <div class="new-arr-product">
+                     <div class="owl-carousel owl-theme" id="newArrPro">
+
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+
+   <section id="why-us">
+      <div class="container">
+         <div class="whyUs-wrapper">
+            <div class="whyUsBox">
+               <img src="images/free-shipping.png" alt="RoadRunner" />
+               <h6>Free Shipping</h6>
+               <p>Free Shipping for orders over $130.</p>
+            </div>
+            <div class="whyUsBox">
+               <img src="images/return-policy.png" alt="RoadRunner" />
+               <h6>Return Policy</h6>
+               <p>Within 30 days for an exchange.</p>
+            </div>
+            <div class="whyUsBox">
+               <img src="images/save-money.png" alt="RoadRunner" />
+               <h6>Save Money</h6>
+               <p>Shop smart and save bigger.</p>
+            </div>
+            <div class="whyUsBox">
+               <img src="images/support.png" alt="RoadRunner" />
+               <h6>Support 24/7</h6>
+               <p>Support 24 hours a day, 7 days a week.</p>
+            </div>
+         </div>
+      </div>
+   </section>
+   <section id="street_banner">
+      <div class="container">
+         <div class="street-text">
+            <div class="street-inner">
+               <h3 class="sec-head text-uppercase mb-0">Built for the Street. <br>Styled for the Spotlight.</h3>
+               <p class="mt-3 mb-4">Our latest shoe collection blends trend-forward designs with everyday comfort,
+                  making every step a statement. </p>
+               <a href="#" class="shop-btn-black mx-auto">SHOP NOW</a>
+            </div>
+         </div>
+      </div>
+   </section>
+
+
+   <section id="mostPopular">
+      <div class="container">
+         <div class="sec-heading-box text-center">
+            <h2 class="sec-head">MOST POPULAR</h2>
+            <h6 class="sec-para">A fresh collection of shoes designed for comfort, performance, and modern flair.</h6>
+
+            <div class="most-popular-wrapper" id="popular-container">
+
+            </div>
+         </div>
+      </div>
+   </section>
+
+   <section id="exclusiveDeal">
+      <div class="container">
+         <div class="street-text">
+            <div class="street-inner">
+               <h3 class="sec-head text-uppercase mb-0">Don’t Miss Out on This<br>Exclusive Hot Deal!</h3>
+               <p class="mt-3 mb-4">Time is running out to grab unbeatable savings <br>on our best-selling styles.</p>
+               <a href="#" class="shop-btn-black mx-auto">SHOP NOW</a>
+            </div>
+         </div>
+      </div>
+   </section>
+
+
+   <section id="featureDeal">
+      <div class="container">
+         <div class="row">
+            <div class="col-lg-8">
+               <div class="new-arr-box">
+                  <h2 class="sec-head">FEATURED DEALS</h2>
+                  <h6 class="sec-para">Explore our Featured Deals—handpicked favorites at can't-miss prices.
+                  </h6>
+
+                  <div class="new-arr-product">
+                     <div class="owl-carousel owl-theme" id="featuredPro">
+
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="col-lg-4">
+               <div class="new-feature-offer">
+                  <div class="nfo-top">
+                     <h2 class="head-48 text-center fw-700 text-center text-white">WALK WITH <br>ASSURANCE!</h2>
+                     <a href="#" class="shop-btn mx-auto mt-4">SHOP NOW</a>
+                  </div>
+                  <div class="nfp-btm">
+                     <img src="images/feature-offer.png" class="feature-offer" alt="RoadRunner" />
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+
+   <section id="insta">
+      <div class="container">
+         <div class="insta-box">
+            <h2 class="head-48 text-center fw-700 text-center text-uppercase">Our Instagram</h2>
+            <h6 class="sec-para text-black mt-3 mb-4">Follow our store on Instagram</h6>
+
+            <a href="#">Follow us</a>
+         </div>
+      </div>
+   </section>
+
+
+   <section id="review">
+      <div class="container">
+         <h2 class="sec-head text-white text-uppercase">Customers Review</h2>
+         <h6 class="sec-para text-white">Our customers can't stop raving about the comfort, quality, and <br>standout
+            style of our shoes.</h6>
+
+         <div class="reviewBoxContainer">
+
+            <div class="owl-carousel owl-theme" id="reviewSlider">
+               <div class="item">
+                  <div class="reviewBox">
+                     <h3>Product Quality!</h3>
+                     <img src="images/five-stars.svg" alt="RoadRunner" />
+                     <p class="rvw-text">"I absolutely love shopping here! The selection is fantastic, the prices are
+                        competitive, Highly recommend."</p>
+                     <div class="r-user">
+                        <div class="r-user-img">
+                           <img src="images/user1.png" alt="RoadRunner" />
+                        </div>
+                        <div class="r-user-text">
+                           <h5>Wade Warren</h5>
+                           <p class="mb-0">Customer <span><img src="images/verified.svg" alt="RoadRunner" /></span></p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="item">
+                  <div class="reviewBox">
+                     <h3>Product Price!</h3>
+                     <img src="images/five-stars.svg" alt="RoadRunner" />
+                     <p class="rvw-text">"I'm so impressed with the level of customer service I received. I had an issue with my order, and the support”</p>
+                     <div class="r-user">
+                        <div class="r-user-img">
+                           <img src="images/user2.png" alt="RoadRunner" />
+                        </div>
+                        <div class="r-user-text">
+                           <h5>Michel</h5>
+                           <p class="mb-0">Customer <span><img src="images/verified.svg" alt="RoadRunner" /></span></p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="item">
+                  <div class="reviewBox">
+                     <h3>Good Support!</h3>
+                     <img src="images/five-stars.svg" alt="RoadRunner" />
+                     <p class="rvw-text">"I had a great experience shopping on this website. The interface is user- friendly, making it easy to find”</p>
+                     <div class="r-user">
+                        <div class="r-user-img">
+                           <img src="images/user3.png" alt="RoadRunner" />
+                        </div>
+                        <div class="r-user-text">
+                           <h5>Kristin Watson</h5>
+                           <p class="mb-0">Customer <span><img src="images/verified.svg" alt="RoadRunner" /></span></p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="item">
+                  <div class="reviewBox">
+                     <h3>Product Quality!</h3>
+                     <img src="images/five-stars.svg" alt="RoadRunner" />
+                     <p class="rvw-text">"I absolutely love shopping here! The selection is fantastic, the prices are
+                        competitive, Highly recommend."</p>
+                     <div class="r-user">
+                        <div class="r-user-img">
+                           <img src="images/user1.png" alt="RoadRunner" />
+                        </div>
+                        <div class="r-user-text">
+                           <h5>Wade Warren</h5>
+                           <p class="mb-0">Customer <span><img src="images/verified.svg" alt="RoadRunner" /></span></p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="item">
+                  <div class="reviewBox">
+                     <h3>Product Price!</h3>
+                     <img src="images/five-stars.svg" alt="RoadRunner" />
+                     <p class="rvw-text">"I'm so impressed with the level of customer service I received. I had an issue with my order, and the support”</p>
+                     <div class="r-user">
+                        <div class="r-user-img">
+                           <img src="images/user2.png" alt="RoadRunner" />
+                        </div>
+                        <div class="r-user-text">
+                           <h5>Michel</h5>
+                           <p class="mb-0">Customer <span><img src="images/verified.svg" alt="RoadRunner" /></span></p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="item">
+                  <div class="reviewBox">
+                     <h3>Good Support!</h3>
+                     <img src="images/five-stars.svg" alt="RoadRunner" />
+                     <p class="rvw-text">"I had a great experience shopping on this website. The interface is user- friendly, making it easy to find”</p>
+                     <div class="r-user">
+                        <div class="r-user-img">
+                           <img src="images/user3.png" alt="RoadRunner" />
+                        </div>
+                        <div class="r-user-text">
+                           <h5>Kristin Watson</h5>
+                           <p class="mb-0">Customer <span><img src="images/verified.svg" alt="RoadRunner" /></span></p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            
+         </div>
+      </div>
+   </section>
+
+   <section id="newsletter">
+      <div class="container">
+         <div class="nwltrWrapper">
+            <div class="nwltrBox">
+               <img src="images/newsLetter.png" alt="RoadRunner" />
+            </div>
+            <div class="nwltrBox frmInput">
+               <h2 class="head-48 fw-700 mb-3">Don’t Want To Miss Our<br>Promos And New Products?</h2>
+               <h6 class="sec-para">Join now for the inside track on our latest offers</h6>
+
+               <div class="newsletterInput position-relative">
+                  <input type="email" placeholder="Enter your email Address" />
+                  <button>SUBMIT</button>
+               </div>
+
+               <img src="images/circle-grph5.png" class="nws-cir5" alt="RoadRunner" />
+               <img src="images/circle-grph4.png" class="nws-cir4" alt="RoadRunner" />
+
+            </div>
+         </div>
+      </div>
+   </section>
+
+   <footer>
+      <div class="container">
+         <div class="footerwrapper">
+            <div class="ftr-logo">
+               <img src="images/logo-white.svg" alt="RoadRunner" />
+               <p class="text-white mt-3">Born from a passion for movement and style, our brand was founded with a simple goal: to create shoes that look as good as they feel.</p>
+               <img src="images/payment.svg" alt="RoadRunner" />
+            </div>
+            <div class="ftr-links">
+               <div class="ftr-link-box">
+                  <h4 class="mb-4">Quick Links</h4>
+                  <a href="#">Search Terms</a>
+                  <a href="#">Advanced Search</a>
+                  <a href="#">Orders and Returns</a>
+                  <a href="#">Consultant</a>
+                  <a href="#">Help & FAQs</a>
+               </div>
+               <div class="ftr-link-box">
+                  <h4 class="mb-4">Information</h4>
+
+                  <a href="#">About</a>
+                  <a href="#">Contact</a>
+                  <a href="#">Privacy Policy</a>
+                  <a href="#">Best Sellers</a>
+                  <a href="#">Support</a>
+
+               </div>
+               <div class="ftr-link-box">
+                  <h4 class="mb-4">Support</h4>
+
+                  <a href="#">Track Order</a>
+                  <a href="#">Returns</a>
+                  <a href="#">Shipping Info</a>
+                  <a href="#">Materials & Care</a>
+                  <a href="#">Terms & Conditions</a>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <div class="copy-container">
+         <div class="container">
+            <div class="c-text-wrapper">
+               <div class="ctext">
+                  <p class="mb-0">Copyright © 2025 Road Runner. All Rights Reserved.</p>
+               </div>
+               <div class="social">
+                  <a href="#"><img src="images/facebook.svg" alt="RoadRunner" /></a>
+                  <a href="#"><img src="images/insta.svg" alt="RoadRunner" /></a>
+                  <a href="#"><img src="images/twitter.svg" alt="RoadRunner" /></a>
+               </div>
+            </div>
+         </div>
+      </div>
+   </footer>
+
+   <script src="js/jquery.min.js"></script>
+   <script src="js/owl.carousel.min.js"></script>
+   <script src="js/productApi.js"></script>
+   <script src="js/custom.js"></script>
+   <script src="js/lander-script.js"></script>
+
+
+   <script>
+
+  $('.owl-carousel#reviewSlider').owlCarousel({
+         loop: true,
+         margin: 30,
+         responsiveClass: true,
+         navText: ["<img src='images/prev-slider.png'>", "<img src='images/next-slider.png'>"],
+         responsive: {
+            0: {
+               items: 1,
+               nav: true
+            },
+            768: {
+               items: 2,
+               nav: false
+            },
+            1200: {
+               items: 3,
+               nav: true,
+               loop: false
+            }
+         }
+      })
+
+
+
+      $('.owl-carousel#newArrPro').owlCarousel({
+         loop: true,
+         margin: 30,
+         responsiveClass: true,
+         navText: ["<img src='images/prev-slider.png'>", "<img src='images/next-slider.png'>"],
+         responsive: {
+            0: {
+               items: 1,
+               nav: true
+            },
+            768: {
+               items: 2,
+               nav: false
+            },
+            1200: {
+               items: 3,
+               nav: true,
+               loop: false
+            }
+         }
+      })
+
+
+      $('.owl-carousel#featuredPro').owlCarousel({
+         loop: true,
+         margin: 30,
+         responsiveClass: true,
+         navText: ["<img src='images/prev-slider.png'>", "<img src='images/next-slider.png'>"],
+         responsive: {
+            0: {
+               items: 1,
+               nav: true
+            },
+            768: {
+               items: 2,
+               nav: false
+            },
+            1200: {
+               items: 3,
+               nav: true,
+               loop: false
+            }
+         }
+      })
+
+
+   </script>
+</body>
+
+</html>
