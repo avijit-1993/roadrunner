@@ -193,9 +193,9 @@ margin-right: -50vw;
     
 }
 .lan-links-text a {
-    display: block;
+    display: table;
     text-align: center;
-            margin: 0 auto 15px;
+     margin: 0 auto 15px;
 }
 .nav-container.fixed{
     left: 0%;
