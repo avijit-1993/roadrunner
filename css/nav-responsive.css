@@ -195,7 +195,7 @@ margin-right: -50vw;
 .lan-links-text a {
     display: block;
     text-align: center;
-    margin-bottom: 15px;
+            margin: 0 auto 15px;
 }
 .nav-container.fixed{
     left: 0%;
