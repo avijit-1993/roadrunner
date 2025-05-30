@@ -229,6 +229,7 @@ button.buy-btn{
 }
 .whyUs-wrapper{
     justify-content: space-between;
+            row-gap: 20px;
 }
 #why-us {
     padding: 10px 0px 30px;
