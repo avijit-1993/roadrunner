@@ -122,6 +122,14 @@ data.checkoutProductList.product.map((item)=>{
         
     }
 
+let newCart = data.cart.filter((item)=>{
+
+  return !data.checkoutProductList.product.some(product => product.id === item.id);
+
+});
+
+data.cart = newCart
+
 
       localStorage.setItem("data", JSON.stringify(data));
 
